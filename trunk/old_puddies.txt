@@ -1,0 +1,54 @@
+Alicia	Alan
+Brie	Chelsea
+Hannah	Charles
+Liz Chid	Shannon
+Margaret	Jonathan
+Nathan	Sarah
+Nate	Peter
+Nate	Lizzie Q
+Peter	Lizzie Q
+Alicia	Peter
+Brie	Lizzie Q
+Hannah	Alan
+Liz Chid	Chelsea
+Margaret	Charles
+Nathan	Shannon
+Nate	Jonathan
+Nate	Sarah
+Jonathan	Sarah	
+Alicia	Sarah	
+Brie	Jonathan
+Hannah	Shannon
+Liz Chid	Charles
+Nate	Chelsea
+Nathan	Lizzie Q
+Margaret	Alan
+Alan	Peter
+Margaret	Peter	
+Hannah	Brie
+Peter	Liz Chid
+Margaret	Nathan
+Nate	Alan
+Chelsea	Alicia
+Lizzie Q	Jonathan
+Sarah	Charles
+Charles	Shannon
+Sarah	Shannon
+Nathan	Alicia
+Hannah	Liz Chid
+Shannon	Peter
+Nate	Charles
+Alan	James
+Jonathan	Chelsea
+Lizzie Q	Brie
+Margaret	Brie
+Margaret	Lizzie Q
+Lizzie Q	Alan
+Brie	Shannon
+Peter	Jonathan
+Margaret	Alicia
+James	Hannah
+Nate	Liz Chid
+Chelsea	Charles
+Chelsea	Nathan
+Charles	Nathan
