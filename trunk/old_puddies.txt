@@ -52,3 +52,20 @@ Nate	Liz Chid
 Chelsea	Charles
 Chelsea	Nathan
 Charles	Nathan
+Alan	Brie
+Alicia	Jonathan
+Margaret	Chelsea
+Nathan	Nate
+Peter	Charles
+Lizzie Q	Shannon
+James	Liz Chid
+Hannah	Lizzie Q
+Alan	Jonathan
+Alicia	Brie
+Margaret	Nate
+Nathan	Peter
+Charles	James
+Shannon	James
+Hannah	Chelsea
+Liz Chid	Lizzie Q
+Charles	Shannon

@@ -65,15 +65,25 @@ function get_all_old_puddies() {
 
 
 
-function save_puddy_list($list, $filename) {
-  $curdate = getdate();
-  
-  
+function save_puddy_list($trans_list, $filename) {  
   $handle = fopen($filename, "w");
+    
+  foreach($trans_list as $first_of_list => $list) {
+    $listlength = count($list);
+    
+    for($idx1 = 0; $idx1 < $listlength; $idx1++) {
+      for($idx2 =  $idx1 + 1; $idx2 < $listlength; $idx2++) {
+        $first = $list[$idx1];
+        $second = $list[$idx2];
+        fwrite($handle, $first."\t".$second."\n");
+      }
+    }
+  }
   
+  /*
   foreach($list as $first => $second) {
     fwrite($handle, $first."\t".$second."\n");
-  }
+  }*/
     
   fclose($handle);
 }
@@ -91,5 +101,21 @@ function load_inavailable() {
   return $result;
 }
 
+
+function transitive_closure_list($puddylist) {
+  $newlist = array();
+  
+  foreach($puddylist as $first =>$second) {
+    if(!array_key_exists($first, $newlist)) {
+      $newlist[$first] = array();
+      array_push($newlist[$first], $first);      
+    }
+    if(!in_array($second, $newlist[$first])) {
+      array_push($newlist[$first], $second);
+    }
+  }  
+  
+  return $newlist;
+}
 
 ?>

@@ -1,8 +1,8 @@
-Alan	Brie
-Alicia	Jonathan
-Margaret	Chelsea
-Nathan	Nate
-Peter	Charles
-Lizzie Q	Shannon
-James	Liz Chid
-Hannah	Lizzie Q
+Alan	Nathan
+Alicia	Nate
+Margaret	Shannon
+Brie	Peter
+Jonathan	Charles
+Lizzie Q	James
+Hannah	Alicia
+Liz Chid	Alan
