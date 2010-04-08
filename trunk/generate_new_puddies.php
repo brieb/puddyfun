@@ -15,7 +15,7 @@ function generate_new_puddy_list($puddy_mat, $names_to_index) {
     }
    }
    
-   // Compute initial assignement
+   // Compute greedy assignement
    foreach($notassigned as $first => $idx1) {
     if($notassigned[$first] > $PAIR_FOUND) {
       foreach($notassigned as $second => $idx2) {
@@ -29,6 +29,7 @@ function generate_new_puddy_list($puddy_mat, $names_to_index) {
       }
     }
   }
+  
     
   // Create triples to include everyone           
   foreach($notassigned as $first => $idx) {
