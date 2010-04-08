@@ -1,8 +1,7 @@
 Alan	Nathan
-Alicia	Nate
+Alicia	Liz Chid
 Margaret	Shannon
 Brie	Peter
 Jonathan	Hannah
 Lizzie Q	Charles
-James	Alicia
-Liz Chid	Alan
+James	Nate
