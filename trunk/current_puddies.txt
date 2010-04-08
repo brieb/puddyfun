@@ -2,7 +2,7 @@ Alan	Nathan
 Alicia	Nate
 Margaret	Shannon
 Brie	Peter
-Jonathan	Charles
-Lizzie Q	James
-Hannah	Alicia
+Jonathan	Hannah
+Lizzie Q	Charles
+James	Alicia
 Liz Chid	Alan
